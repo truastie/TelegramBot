@@ -7,7 +7,7 @@ import os
 TOKEN = "8337544662:AAEBUgsWPbR4HhVEnRwOpNK5rUWXtv4C3Iw"
 bot = telebot.TeleBot(TOKEN)
 
-DESIGNS_FILE = "data/designs.json"
+DESIGNS_FILE = "designs.json"
 
 # временная память: в какой раздел сейчас добавляют фото
 current_mood = {}
