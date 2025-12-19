@@ -4,10 +4,10 @@ from telebot import types
 import json
 import os
 
-TOKEN = "8337544662:AAEBUgsWPbR4HhVEnRwOpNK5rUWXtv4C3Iw"
-bot = telebot.TeleBot(TOKEN)
+BOT_TOKEN = "8337544662:AAEBUgsWPbR4HhVEnRwOpNK5rUWXtv4C3Iw"
+bot = telebot.TeleBot(BOT_TOKEN)
 
-DESIGNS_FILE = "designs.json"
+DESIGNS_FILE = "data/designs.json"
 
 # временная память: в какой раздел сейчас добавляют фото
 current_mood = {}
